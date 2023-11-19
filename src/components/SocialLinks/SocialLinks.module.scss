@@ -1,0 +1,16 @@
+
+.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.links span{
+  margin-left:  16px;
+  font-size: 20px;
+}
+
+.links span:first-child{
+  margin-left: 0;
+}

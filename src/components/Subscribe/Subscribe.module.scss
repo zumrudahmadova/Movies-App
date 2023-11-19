@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  margin: 30px 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  color: #fff;
+  font-size: 24px;
+}
+
+.box {
+  background-color: #0D162F;
+  padding: 8px 16px;
+  border-radius: 12px;
+}
+
+%common {
+  border-radius: 12px;
+  border: none;
+  color: #ffffff
+}
+
+.input {
+  padding: 15px;
+  outline: none;
+  background-color: #0D162F;
+  @extend %common;
+
+}
+
+.button {
+  background-color: #FF6D03;
+  padding: 15px 30px;
+  border-radius: 12px;
+  @extend %common;
+}

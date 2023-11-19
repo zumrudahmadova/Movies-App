@@ -1,0 +1,51 @@
+@import '../utils/responsive';
+
+.container {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @include md {
+    margin-top: 30px;
+    width: 100%;
+    flex-direction: column;
+
+  }
+
+  @include sm {
+    width: 100%;
+  }
+
+}
+
+.header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  position: absolute;
+  width: 180px;
+  left: 20px;
+  top: 20px;
+
+  @include md {
+    width: 120px
+  }
+}
+
+.icon {
+  color: #fff;
+  padding: 20px;
+  right: 0;
+  top: 0;
+  display: none;
+  position: absolute;
+
+  @include md {
+    display: block;
+  }
+}
